@@ -81,17 +81,27 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/typescript/index.ts");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ "./src/typescript/index.ts":
+/*!*********************************!*\
+  !*** ./src/typescript/index.ts ***!
+  \*********************************/
+/*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-console.log('Hallo!');
+console.log('index.ts invoked');
+window.onload = function () {
+    console.log('Window.onload invoked');
+};
 
 
 /***/ })
-/******/ ]);
+
+/******/ });
+//# sourceMappingURL=bundle.js.map
