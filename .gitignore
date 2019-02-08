@@ -1,0 +1,15 @@
+
+# mac
+.DS_Store
+
+# JetBrains
+.idea
+
+# Node.js
+node_modules
+
+# TypeScript compiler output
+bin
+
+# Webpack output
+# dist/js

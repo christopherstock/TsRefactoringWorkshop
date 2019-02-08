@@ -1,4 +1,11 @@
 
-    console.log( 'Hallo!' );
+    console.log( 'index.ts invoked' );
 
-    throw "Error";
+    window.onload = () => {
+
+        console.log( 'Window.onload invoked' );
+
+
+
+
+    };
