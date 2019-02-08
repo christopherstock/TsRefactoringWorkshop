@@ -1,0 +1,12 @@
+
+- Legacy Projekt in Unterordner
+
+npm init -f
+
+npm install webpack --dev
+npm install webpack-cli --dev
+npm install webpack-dev-server
+
+npm install typescrpt --dev
+npm install awesome-typescript-loader
+npm install source-map-loader --dev
