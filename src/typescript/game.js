@@ -356,7 +356,7 @@
         addSegment(Util.easeInOut(curve, 0, n/leave), Util.easeInOut(startY, endY, (enter+hold+n)/total));
     }
 
-    var ROAD = {
+    window.ROAD = {
       LENGTH: { NONE: 0, SHORT:  25, MEDIUM:   50, LONG:  100 },
       HILL:   { NONE: 0, LOW:    20, MEDIUM:   40, HIGH:   60 },
       CURVE:  { NONE: 0, EASY:    2, MEDIUM:    4, HARD:    6 }

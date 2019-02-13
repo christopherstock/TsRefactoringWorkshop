@@ -1,5 +1,5 @@
 
-var Stats = function () {
+window.Stats = function () {
 
   var startTime = Date.now(), prevTime = startTime;
   var ms = 0, msMin = 1000, msMax = 0;
